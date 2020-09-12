@@ -10,11 +10,10 @@ ul {
 a {
     text-decoration: none;
     font-weight: bold;
-    text-transform: uppercase;
     color: #B03E17;
 }
 
-a : hover {
+a:hover {
     background-color: #B03E17;
     text-decoration-color: #F1C7D5;
 }
