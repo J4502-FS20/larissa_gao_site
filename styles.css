@@ -9,6 +9,7 @@ ul {
 
 ul a {
     text-decoration: none;
+    text-transform: uppercase;
     font-weight: bold;
     color: #B03E17;
 }
