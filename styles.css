@@ -8,12 +8,14 @@ ul {
 }
 
 a {
-    text-decoration-line: none;
-    text-decoration-color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #B03E17;
 }
 
 a : hover {
-    background-color: black;
+    background-color: #B03E17;
     text-decoration-color: #F1C7D5;
 }
 
