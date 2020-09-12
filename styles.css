@@ -7,15 +7,16 @@ ul {
     list-style-type: none;
 }
 
-a {
+ul a {
     text-decoration: none;
     font-weight: bold;
     color: #B03E17;
 }
 
-a:hover {
+ul a:hover {
     background-color: #B03E17;
     text-decoration-color: #F1C7D5;
+    color: #F1C7D5;
     opacity: 0.7;
 }
 
@@ -34,7 +35,6 @@ h1 {
 
 p {
     font-family: Arial, 'Rokkitt', sans-serif;
-    background-color: #AADCCE;
 }
 
 p a {
@@ -47,6 +47,7 @@ p a:hover {
     background-color: #B03E17;
     text-decoration-color: #F1C7D5;
     opacity: 0.7;
+    color: #F1C7D5;
 }
 
 
