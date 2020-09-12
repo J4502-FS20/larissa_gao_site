@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: lightblue;
     text-align: center;
 }
 
@@ -9,11 +9,12 @@ p {
 
 ul {
     list-style-type: none;
+    text-decoration: none;
 }
 
 img {
+    border: none;
     width: 50%;
     min-width: 350px;
     max-width: 600px;
-    opacity: 0.75;
 }
