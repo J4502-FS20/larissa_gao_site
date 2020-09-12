@@ -5,6 +5,7 @@ body {
 
 ul {
     list-style-type: none;
+    text-align: center;
 }
 
 ul a {
@@ -16,6 +17,7 @@ ul a {
 ul a:hover {
     background-color: #B03E17;
     text-decoration-color: #F1C7D5;
+    font-weight: bold;
     color: #F1C7D5;
     opacity: 0.7;
 }
