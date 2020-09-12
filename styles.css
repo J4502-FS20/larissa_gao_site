@@ -5,8 +5,16 @@ body {
 
 ul {
     list-style-type: none;
+}
+
+a {
     text-decoration-line: none;
-    text-decoration-color:
+    text-decoration-color: black;
+}
+
+a : hover {
+    background-color: black;
+    text-decoration-color: #F1C7D5;
 }
 
 p {
