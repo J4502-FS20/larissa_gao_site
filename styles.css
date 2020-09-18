@@ -1,6 +1,62 @@
 body {
-    background-color: #F1C7D5;
+    background-color: #031163;
     text-align: center;
+    margin: 0px;
+}
+
+#header {
+  width: 100%;
+  background-color: #1fbfb8;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+h1 {
+    font-family: 'Kreon', serif;
+    font-size: 27px;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+p a {
+  text-decoration: none;
+  font-style: italic;
+  color: #031163;
+}
+
+p a:hover {
+    background-color: #031163;
+    opacity: 0.7;
+    color: #1fbfb8;
+}
+
+#image {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #05716c;
+}
+
+
+img {
+    border: none;
+    width: 20%;
+    min-width: 350px;
+    max-width: 600px;
+}
+
+h2{
+  font-family: 'Recursive', sans-serif;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
 }
 
 ul {
@@ -9,55 +65,26 @@ ul {
 
 ul a {
     text-decoration: none;
-    text-transform: uppercase;
     font-weight: bold;
-    color: #B03E17;
+    color:#031163;
 }
 
 ul a:hover {
-    background-color: #B03E17;
+    background-color: #031163;
     font-weight: bold;
-    color: #F1C7D5;
+    color: #1978a5;
     opacity: 0.7;
 }
 
-img {
-    border: none;
-    width: 40%;
-    min-width: 350px;
-    max-width: 600px;
-}
 
-h1 {
-    font-family: 'Roboto Slab', serif, sans-serif;
-    font-size: 27px;
-    text-transform: uppercase;
-}
-
-p {
-    font-family: 'Rokkitt', serif;
-}
-
-p a {
-  text-decoration: none;
-  font-style: italic;
-  color: #B03E17;
-}
-
-p a:hover {
-    background-color: #B03E17;
-    opacity: 0.7;
-    color: #F1C7D5;
-}
-
-
-h2{
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-style: italic;
-  text-transform: uppercase;
+#navigation {
+  width: 100%;
+  background-color: #1978a5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0px;
 }
 
 #joke p {
-    font-family: 'Rokkitt', serif;
+  font-family: 'Open Sans', sans-serif;
 }
