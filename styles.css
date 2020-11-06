@@ -55,19 +55,23 @@ h2{
 ul {
     list-style-type: none;
     text-transform: uppercase;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 ul a {
     font-family: 'Recursive', sans-serif;
     text-decoration: none;
     font-weight: bold;
-    color:#031163;
+    color: white;
 }
 
 ul a:hover {
-    background-color: #031163;
+    background-color: white;
     font-weight: bold;
-    color: #1978a5;
+    color: #031163;
     opacity: 0.7;
 }
 
@@ -79,6 +83,50 @@ ul a:hover {
   padding-bottom: 20px;
   margin: 0px;
 }
+
+@media screen and (max-width: 400px) {
+  #navigation {
+    margin: 1.5em;
+  }
+}
+@media screen and (max-width: 700px) {
+  #navigation {
+    margin: 2em;
+  }
+}
+
+#first{
+  background-color: #031163;
+  width: 140px;
+  padding: 20px;
+}
+
+#second{
+  background-color: #031163;
+  width: 140px;
+  padding: 20px;
+}
+#third{
+  background-color: #031163;
+  width: 140px;
+  padding: 20px;
+}
+#forth{
+  background-color: #031163;
+  width: 140px;
+  padding: 20px;
+}
+#fifth{
+  background-color: #031163;
+  width: 140px;
+  padding: 20px;
+}
+#sixth{
+  background-color: #031163;
+  width: 140px;
+  padding: 20px;
+}
+
 #joke {
   width: 100%;
   background-color: #031163;
