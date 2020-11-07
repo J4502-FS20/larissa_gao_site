@@ -84,7 +84,7 @@ ul a:hover {
   margin: 0px;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 900px) {
   ul {
     display:flex;
     flex-direction: row;
