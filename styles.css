@@ -85,10 +85,10 @@ ul a:hover {
 }
 
 @media screen and (max-width: 900px) {
-  li a {
-  display: block;
-  width: 60px;
- }
+  ul{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 #first{
