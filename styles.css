@@ -53,55 +53,56 @@ h2{
   text-transform: uppercase;
 }
 
-ul {
+
+.nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  list-style: none;
   list-style-type: none;
   text-transform: uppercase;
-  display: flex;
-  flex-flow: row;
-  justify-content: space-around;
-  list-style: none;
   width: 100%;
-  background-color: #1978a5;
+  background-color: #05716c;
   padding: 20px;
-  margin: 0px;
+  margin: 5px;
 }
 
-ul a {
+.nav a {
   text-decoration: none;
   display: block;
   padding: 1em;
   color: white;
   font-family: 'Recursive', sans-serif;
-  text-decoration: none;
   font-weight: bold;
   color: white;
 }
 
-ul a:hover {
-    background-color: white;
-    font-weight: bold;
-    color: #05716c;
-    opacity: 0.7;
+.nav a:hover {
+  opacity: 0.7;
+  background-color: white;
+  font-weight: bold;
+  color: #05716c;
+  opacity: 0.7;
 }
 
 @media all and (max-width: 800px) {
-  ul {
+  .nav {
     justify-content: space-around;
   }
 }
 
 @media all and (max-width: 600px) {
-  ul {
-    flex-flow: column;
+  .nav {
+    flex-flow: column wrap;
     padding: 0;
   }
- ul a {
+  .nav a {
     text-align: center;
     padding: 10px;
     border-top: 1px solid rgba(255, 255, 255,0.3);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
- ul n li:last-of-type a {
+  .nav li:last-of-type a {
     border-bottom: none;
   }
 }
@@ -110,76 +111,36 @@ ul a:hover {
   background-color: #05716c;
   width: 140px;
   padding: 20px;
+  margin: 5px;
 }
 
 #second{
   background-color: #05716c;
   width: 140px;
   padding: 20px;
+  margin: 5px;
 }
 #third{
   background-color: #05716c;
   width: 140px;
   padding: 20px;
+    margin: 5px;
 }
 #forth{
   background-color: #05716c;
   width: 140px;
   padding: 20px;
+    margin: 5px;
 }
 
 #joke {
   width: 100%;
   padding-top: 20px;
+  background-color: #1978a5;
   padding-bottom: 20px;
   margin: 0px;
 }
 
 #joke p {
   font-family: 'Open Sans', sans-serif;
-}
-
-
-/*footer*/
-
-footer{
-     background-color: #1978a5;
-     padding:30px 0px;
-}
-
-.address li , .menu li{
-   color: #FFF;
-   font-weight: bold;
-   border-bottom: 1px solid #FFF;
-   padding:10px 0px;
-   display: block;
-   text-transform: uppercase;
-   font-size: 16px;
-   letter-spacing: 3px;
-}
-
-.address li a , .menu li a{
-    color:#FFF;
-    letter-spacing: 3px;
-    text-decoration:none;
-    font-size:14px;
-}
-
-.address li, .menu li{
-    margin:20px 0px;
-    list-style: none;
-}
-
-.address li a:hover , .menu li a:hover{
-    color: #1978a5;
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
-}
-
-.address .fa{
-    color: #1978a5;
-    margin-right: 10px;
-    font-size:18px;
 }
