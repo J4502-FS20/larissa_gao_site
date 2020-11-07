@@ -63,7 +63,7 @@ h2{
   text-transform: uppercase;
   width: 100%;
   background-color: #05716c;
-  padding: 20px;
+  padding: 5px;
   margin: 5px;
 }
 
@@ -85,32 +85,6 @@ h2{
   opacity: 0.7;
 }
 
-
-#first{
-  background-color: #05716c;
-  width: 140px;
-  padding: 20px;
-  margin: 5px;
-}
-
-#second{
-  background-color: #05716c;
-  width: 140px;
-  padding: 20px;
-  margin: 5px;
-}
-#third{
-  background-color: #05716c;
-  width: 140px;
-  padding: 20px;
-    margin: 5px;
-}
-#forth{
-  background-color: #05716c;
-  width: 140px;
-  padding: 20px;
-    margin: 5px;
-}
 
 #joke {
   width: 100%;
