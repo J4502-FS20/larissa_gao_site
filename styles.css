@@ -6,7 +6,7 @@ body {
 
 #header {
   width: 100%;
-  background-color: #1fbfb8;
+  background-color: #1978a5;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -28,13 +28,14 @@ p {
 p a {
   text-decoration: none;
   font-style: italic;
-  color: #031163;
+  color: white;
+  font-weight: bold;
 }
 
 p a:hover {
-    background-color: #031163;
+    background-color: white;
     opacity: 0.7;
-    color: #1fbfb8;
+    color: #1978a5;
 }
 
 
@@ -71,7 +72,7 @@ ul a {
 ul a:hover {
     background-color: white;
     font-weight: bold;
-    color: #031163;
+    color: #05716c;
     opacity: 0.7;
 }
 
@@ -79,8 +80,7 @@ ul a:hover {
 #navigation {
   width: 100%;
   background-color: #1978a5;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
   margin: 0px;
 }
 
@@ -96,40 +96,29 @@ ul a:hover {
 }
 
 #first{
-  background-color: #031163;
+  background-color: #05716c;
   width: 140px;
   padding: 20px;
 }
 
 #second{
-  background-color: #031163;
+  background-color: #05716c;
   width: 140px;
   padding: 20px;
 }
 #third{
-  background-color: #031163;
+  background-color: #05716c;
   width: 140px;
   padding: 20px;
 }
 #forth{
-  background-color: #031163;
-  width: 140px;
-  padding: 20px;
-}
-#fifth{
-  background-color: #031163;
-  width: 140px;
-  padding: 20px;
-}
-#sixth{
-  background-color: #031163;
+  background-color: #05716c;
   width: 140px;
   padding: 20px;
 }
 
 #joke {
   width: 100%;
-  background-color: #031163;
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 0px;
@@ -137,4 +126,87 @@ ul a:hover {
 
 #joke p {
   font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+/* Here is the second page */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+#container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+/*footer*/
+
+footer{
+     background-color: #1978a5;
+     padding:30px 0px;
+}
+
+.address li , .menu li{
+   color: #FFF;
+   font-weight: bold;
+   border-bottom: 1px solid #FFF;
+   padding:10px 0px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 16px;
+   letter-spacing: 3px;
+}
+
+.address li a , .menu li a{
+    color:#FFF;
+    letter-spacing: 3px;
+    text-decoration:none;
+    font-size:14px;
+}
+
+.address li, .menu li{
+    margin:20px 0px;
+    list-style: none;
+}
+
+.address li a:hover , .menu li a:hover{
+    color: #1978a5;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.address .fa{
+    color: #1978a5;
+    margin-right: 10px;
+    font-size:18px;
 }
